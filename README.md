@@ -6,7 +6,7 @@ This archive contains all code, datasets, and results for the paper.
 Five subdirectories correspond to the five experiment groups.
 
 ```
-SPupload/
+
 ├── 1_main/                  # Main experiment: v13 framework × 4 target models
 ├── 2_baselines/             # 8 baseline methods, same evaluation pipeline
 ├── 3_optimizer_takeover/    # Optimizer takeover experiment (7 optimizers)
