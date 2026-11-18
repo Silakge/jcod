@@ -42,16 +42,7 @@ python3 run_v13.py --baseline redcode --shard 0/4
 ## 3. Optimizer Takeover (`3_optimizer_takeover/`)
 
 ```bash
-cd 3_optimizer_takeover/code
-
-# Step 1: generate first-pass artifacts (one-time)
-python3 gen_cache.py --shard 0/8 --limit 160
-
-# Step 2: evaluate baseline
-python3 baseline_gpt4o.py
-
-# Step 3: run optimizer
-python3 handoff2.py --model qwen38 --tag full --limit 160 --shard 0/4
+This folder contains the experimental results for all four models.
 ```
 
 ## 4. Ablation (`4_ablation/`)
